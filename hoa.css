@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nếu là máy tính */
+@media (min-width: 1024px) {
+  #tiresult {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+/* nếu là tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #tiresult {
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 9px;
+    margin: 10px;
+  }
+}
+
+/* nếu là điện thoại */
+@media (max-width: 767px) {
+  #tiresult {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+    font-size: 5px;
+  }
+}
